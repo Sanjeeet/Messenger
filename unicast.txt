@@ -1,0 +1,52 @@
+**********************************************************************  UNICAST  **********************************************************************
+
+
+
+
+
+Implemented private messaging to a specific person whether it'd be across the same session, different session or even for users that aren't in any sessions.
+
+
+In order for the private message to successfully get across, both the sending and receiving clients need to be logged in. That is the only requirement.
+
+
+To private message, first, you simply put in the terminal"/unicast" as the command and "<to_client_id>" as the receiving client's id. 
+Then you type what you want to message them!
+ 
+
+/unicast <to_client_id>
+THEN,
+<message>
+
+
+
+
+
+For example,
+	Sender side:
+
+	/unicast Joon 
+	THEN,
+	Hi Joon, My name is Joo Hun
+
+
+
+
+	Receiver side (Joon): 
+
+	Joo Hun: Hi Joon, My name is Joo Hun
+
+
+
+
+
+IF YOU NEED TO LOGIN, WE HARDCODED OUR CLIENTS!!!!:
+ID : joon           pw : joon
+ID : moon           pw : moon
+ID : moo            pw : moo
+ID : cow            pw : cow
+
+
+
+
+
