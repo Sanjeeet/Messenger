@@ -1,5 +1,5 @@
-# Messenger
-Messenger (Socket programming in C)
+# Terminal Messenger 
+Messenger that doesn't need WiFi (Socket programming in C)
 
 - Developed a Messenger where people can message other people without the need of Internet Access using sockets 
 - Created authentication functionality and direct messaging functionality for the program 
